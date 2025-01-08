@@ -1,0 +1,55 @@
+body{
+    padding-top: 60px;
+}
+
+/*NAV BAR SETTINGS*/
+.navbar{
+    color: black;   
+    
+}
+
+.navbar .nav-links{
+    list-style: none;
+    background-color: rgb(67, 67, 255);
+    font-size: large;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15mm;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    
+}
+.navbar .nav-link a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #e58cf7;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+
+      
+}
+
+section{
+    height: 100vh;
+    
+    place-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.heading {
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    width: 100%;
+}
